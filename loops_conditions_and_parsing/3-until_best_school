@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#logs multiples 10 to the console
+i=0
+until [ $i -eq 10 ]
+do
+	echo "Best School"
+	(( i++ ))
+done
